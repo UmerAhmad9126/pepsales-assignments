@@ -5,7 +5,7 @@ This project is a simple React application that displays the live stock prices o
 ## Features
 - Display live stock prices
 - Detailed stock information on click
-- Optional: Graph of today’s price movement
+- Graph of today’s price movement
 - Redux for state management
 
 ## Getting Started
@@ -41,4 +41,5 @@ This project is a simple React application that displays the live stock prices o
 - Axios
 - React Router
 - Chart.js
+- ChakraUI
 
