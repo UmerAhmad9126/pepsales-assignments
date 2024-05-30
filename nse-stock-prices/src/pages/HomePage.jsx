@@ -20,7 +20,7 @@ const HomePage = () => {
     <Box>
       {
         isLoading ? (<LoadingSkeleton />) : (
-          <SimpleGrid width={"80%"} height={"auto"} margin={"auto"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} gap={6} mt="50px" columns={{ base: 2, sm: 3, md: 3, lg: 6, xl: 6, "2xl": 6 }}>
+          <SimpleGrid width={"80%"} height={"auto"} margin={"auto"} gap={6} mt="50px" columns={{ base: 1, sm: 1, md: 1, lg: 3, xl: 4, "2xl": 6 }}>
             {stockData.data && stockData.data.map((stock) => (
               <StockCard {...stock} key={stock.id} />
             ))}
