@@ -1,11 +1,10 @@
 # NSE Stock Prices
 
-This project is a simple React application that displays the live stock prices of 20 companies from NSE.
+This project is a simple React application that displays the live stock prices of various companies from NSE.
 
 ## Features
 - Display live stock prices
 - Detailed stock information on click
-- Graph of today’s price movement
 - Redux for state management
 
 ## Getting Started
@@ -32,14 +31,12 @@ This project is a simple React application that displays the live stock prices o
     ```
 
 ### Assumptions
-- The live stock data is fetched from Yahoo Finance API.
-- Chart.js is used for displaying the price movement graph.
+- The live stock data is fetched from NSE Stock Market India API.
 
 ### Libraries Used
 - React
 - Redux
 - Axios
 - React Router
-- Chart.js
 - ChakraUI
 

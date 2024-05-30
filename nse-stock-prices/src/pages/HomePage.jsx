@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getStockData } from '../redux/action';
-import { Box, Text } from '@chakra-ui/react'
+import { Box, SimpleGrid } from '@chakra-ui/react'
 import StockCard from '../components/StockCard';
+import LoadingSkeleton from '../components/LoadingSkeleton';
 
 const HomePage = () => {
 
   const dispatch = useDispatch();
   const stockData = useSelector((store) => store.stockReducer.stockData);
+  const isLoading = useSelector((store) => store.stockReducer.isLoading);
   console.log('stockData:', stockData);
 
   useEffect(() => {
@@ -16,17 +18,16 @@ const HomePage = () => {
 
   return (
     <Box>
-      <Box w="100%" h="80px" backgroundColor={"teal"} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-        <Text fontSize={"18px"} fontWeight={"bold"} color={"#ffff"}>NSE STOCK PRICES</Text>
-      </Box>
+      {
+        isLoading ? (<LoadingSkeleton />) : (
+          <SimpleGrid width={"80%"} height={"auto"} margin={"auto"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} gap={6} mt="50px" columns={{ base: 2, sm: 3, md: 3, lg: 6, xl: 6, "2xl": 6 }}>
+            {stockData.data && stockData.data.map((stock) => (
+              <StockCard {...stock} key={stock.id} />
+            ))}
+          </SimpleGrid>
+        )
+      }
 
-
-
-      <Box width={"80%"} height={"auto"} margin={"auto"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} gap={6} mt="50px">
-        {stockData.data && stockData.data.map((stock) => (
-          <StockCard {...stock} key={stock.id} />
-        ))}
-      </Box>
 
     </Box >
   )
