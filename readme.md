@@ -53,3 +53,8 @@ This project is a simple React application that displays the live stock prices o
 - **package-lock.json**: Dependency versions
 - **package.json**: Project metadata and scripts
 
+## Screen Shorts
+
+![Screenshot (328)](https://github.com/UmerAhmad9126/pepsales-assignments/assets/107202480/46971815-83bc-44cd-a6ed-5bc03f9e0fd2)
+![Screenshot (329)](https://github.com/UmerAhmad9126/pepsales-assignments/assets/107202480/249c8e9e-5785-4007-b547-abdac793a50f)
+![Screenshot (331)](https://github.com/UmerAhmad9126/pepsales-assignments/assets/107202480/c708a293-2e8f-4e1b-8c15-0afd40569842)
