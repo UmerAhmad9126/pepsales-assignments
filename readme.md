@@ -40,3 +40,14 @@ This project is a simple React application that displays the live stock prices o
 - React Router
 - ChakraUI
 
+# Assignment Folder Structure
+
+## Directories
+- **public/**: Public assets
+- **src/**: Source code
+
+## Root Files
+- **.gitignore**: Git ignore rules
+- **package-lock.json**: Dependency versions
+- **package.json**: Project metadata and scripts
+
