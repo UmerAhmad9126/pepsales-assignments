@@ -23,7 +23,7 @@ export const getStockData = () => (dispatch) => {
         {
 
             headers: {
-                'X-RapidAPI-Key': '97d539079cmsha7381aa62c938e5p155ac6jsn93a640d674d9',
+                'X-RapidAPI-Key': 'e5c8edd40fmsh8dac15ecfd70527p1c5cbfjsn3fa105b76d75',
                 'X-RapidAPI-Host': 'nse-stock-market-india.p.rapidapi.com'
             },
 
