@@ -6,6 +6,8 @@ This project is a simple React application that displays the live stock prices o
 - Display live stock prices
 - Detailed stock information on click
 - Redux for state management
+- Error Handling
+- Loading Skeleton 
 
 ## Getting Started
 
