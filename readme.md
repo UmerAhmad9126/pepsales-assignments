@@ -33,7 +33,7 @@ This project is a simple React application that displays the live stock prices o
 ### Assumptions
 - The live stock data is fetched from NSE Stock Market India API.
 
-### Libraries Used
+### Tech Stack Used
 - React
 - Redux
 - Axios
