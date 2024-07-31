@@ -1,4 +1,4 @@
-# NSE Stock Prices
+8# NSE Stock Prices
 
 This project is a simple React application that displays the live stock prices of various companies from NSE.
 
@@ -53,7 +53,7 @@ This project is a simple React application that displays the live stock prices o
 - **package-lock.json**: Dependency versions
 - **package.json**: Project metadata and scripts
 
-## Screen Shorts
+## ScreenShorts
 
 ![Screenshot (328)](https://github.com/UmerAhmad9126/pepsales-assignments/assets/107202480/46971815-83bc-44cd-a6ed-5bc03f9e0fd2)
 ![Screenshot (329)](https://github.com/UmerAhmad9126/pepsales-assignments/assets/107202480/249c8e9e-5785-4007-b547-abdac793a50f)
